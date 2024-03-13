@@ -1,0 +1,117 @@
+.contact-section {
+    /* padding: 50px 0; */
+    background-color: #041240;
+    color: #fff;
+    /* border:2px solid red; */
+  }
+  
+  .contact-section .section-heading {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  
+  .contact-section .contact-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-section .contact-info {
+    /* flex: 0.5; */
+    /* background: #07294d; */
+    background: transparent;
+    border-radius: 10px;
+    padding: 80px 50px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin: 40px 20px;
+    
+  }
+  
+  .contact-section .contact-info h2 {
+    font-size: 36px;
+    margin: 0 0 20px;
+  }
+  .contact-section .contact-info h5{
+    letter-spacing: 1px;
+  }
+  .contact-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-section ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .contact-section .contact-form {
+    flex: 0.5;
+    /* background: #0d407a; */
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin: 40px;
+  }
+  
+  .contact-section .contact-form h3 {
+    font-size: 24px;
+    margin: 0 0 20px;
+    /* text-shadow: 10px 10px red; */
+    /* border: 2px solid red; */
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  .contact-section .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-section label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-section input[type="text"],
+  .contact-section input[type="email"],
+  .contact-section textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-section textarea {
+    height: 150px;
+  }
+  
+  .contact-section button {
+    background: #ec4040;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .contact-section .container{
+    /* border:2px solid red; */
+    background-image: url('https://cdn.shopify.com/s/files/1/0396/9643/3315/products/447_1024x.jpg');
+  }
+  .contact-section .section-heading{
+    margin-top:0px;
+    /* border:2px solid red; */
+    padding-top:15px;
+    /* text-decoration: underline; */
+  }
+  .imposter{
+    line-height: 45px;
+  }

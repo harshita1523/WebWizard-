@@ -1,0 +1,49 @@
+/* Alumni.css */
+.alumni-section {
+    background-color: #041240;
+    padding: 50px 0;
+  }
+  
+  .alumni-section .section-heading {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .alumni-cards {
+    display: flex;
+    justify-content: center;
+    /* margin: 20px; */
+    overflow: hidden;
+    border: 2px solid purple;
+  }
+  
+  .alumni-card {
+    height:400px;
+    width: 200px;
+    border:1px solid red;
+    transition: width 0.3s ease, box-shadow 0.3s ease;
+    background-color: black;
+  }
+  /* .alumni-card img{
+    background-position: cover;
+  } */
+  .alumni-card:hover {
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .alumni-card-content {
+    background-color: #003f5a;
+    color: #fff;
+    padding: 20px;
+    transition: height 0.3s ease;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .alumni-card:hover .alumni-card-content {
+    height: auto;
+  }
+  

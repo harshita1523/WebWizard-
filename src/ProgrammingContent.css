@@ -1,0 +1,102 @@
+/* ProgrammingContent.css */
+
+/* Clearfix to handle floated elements */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .main-content{
+    display: flex;
+  }
+  
+  /* Sidebar styles */
+  .side-bar {
+    font-size: 20px;
+    float: left;
+    width: 18%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    overflow-y: scroll; /* Add vertical scrollbar when content overflows */
+    max-height: calc(100vh - 20px);
+    
+    /*scroll-behavior: auto; */
+  }
+  
+  .side-bar h2 {
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+    /* padding-left:20px; */
+  }
+  
+  .side-bar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .side-bar li {
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+  }
+  
+  /* Main Content styles */
+  .content {
+    float: left;
+    width: 82%;
+    padding: 20px;
+    overflow: scroll;
+    
+  }
+  
+  .content h1 {
+    font-size: 24px;
+    /* margin-bottom: 20px; */
+    padding:20px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .side-bar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .side-bar li {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .side-bar li:hover {
+    background-color: #007bff; /* Change to your desired hover background color */
+    color: #fff; /* Change to your desired hover text color */
+  }
+  .side-bar ul li.selected {
+    background-color: #007bff; /* Change to your desired hover background color */
+    color: #fff; /* Change this to your desired style */
+  }
+  .side-bar {
+    font-size: 18px;
+    float: left;
+    width: 18%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height:70vh;
+    overflow-y: scroll; /* Add vertical scrollbar when content overflows */
+    max-height: calc(100vh - 80px); /* Adjust as needed */
+  }
+  .content {
+    float: left;
+    width: 82%;
+    padding: 20px;
+    height:70vh;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 500px; /* Set a fixed height for the content div */
+  }
+  .content img{
+    display: block;
+    
+
+  }

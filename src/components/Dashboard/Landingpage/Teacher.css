@@ -1,0 +1,69 @@
+.teacher-section {
+    background-color: #041240;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .teacher-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border:2px solid red; */
+  }
+  
+  .teacher-image{
+    padding-left: 200px;
+  }
+  .teacher-image img {
+    /* padding-left: 200px; */
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .teacher-info {
+    /* flex: 1; */
+    padding-left: 250px;
+  }
+  
+  .teacher-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .teacher-info p {
+    font-size: 18px;
+  }
+  
+  .teacher-info button {
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .modal{
+    height:300px;
+  }
+  .modal iframe{
+    position: absolute;
+    left: 26%;
+  }
+  .modal button{
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position:absolute;
+    left:90%;
+    /* margin-top: 20px; */
+  }

@@ -1,0 +1,116 @@
+/* AnimationSec.css
+
+/* Section styling */
+#hero {
+    position: relative;
+    background-color: #041240;
+    /* background-color: #f0f0f0; Set your background color */
+    text-align: center;
+    padding: 128px 0;
+    color: #333; /* Set your text color */
+  }
+  
+  /* Background image or video styling */
+  #hero .hero-bg {
+    /* Style your background image or video here */
+    /* background-image: url(''); */
+    background-color: #0056b3;
+    background-size: cover;
+    background-position: center;
+    height: 100%; /* You can adjust the height as needed */
+    opacity: 0.7; /* Adjust opacity if using an image */
+  }
+  
+  /* Container styling */
+  #hero .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Heading styling */
+  #hero h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+   
+    color: #fff; /* Set your heading text color */
+  }
+  
+  /* Subheading styling */
+  #hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: white;
+    position: relative; /* Required for absolute positioning */
+    display: inline-block; /* Required for inline-block elements to work with absolute positioning */
+  }
+  
+  /* Define the animation keyframes */
+  @keyframes blink {
+    0% {
+      opacity: 1; /* Fully visible cursor */
+    }
+    50% {
+      opacity: 0; /* Completely invisible cursor */
+    }
+    100% {
+      opacity: 1; /* Back to fully visible cursor */
+    }
+  }
+  
+  /* Apply the animation */
+  #hero p::after {
+    content: '|'; /* Cursor symbol, you can change it as needed */
+    position: absolute;
+    animation: blink 1s infinite; /* Customize animation duration as needed */
+    bottom: 0;
+    right: 0;
+    color: #fff; /* Cursor color */
+  }
+  
+  #hero input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Set your input border color */
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  #hero button {
+    padding: 10px 20px;
+    background-color: black; /* Set your button background color */
+    color: #fff; /* Set your button text color */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  #hero button:hover {
+    background-color: red; /* Change to your desired hover color */
+  }
+  /* Animation for the floating image */
+.floating-image {
+    animation: floatUpDown 3s ease-in-out infinite; /* Adjust the duration as needed */
+  }
+  
+  @keyframes floatUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Adjust the distance of the float */
+    }
+  }
+  .image-container img{
+    height:300px;
+    width:370px;
+    position:absolute;
+    left:72%;
+    top:0.1%;
+    z-index: -2;
+  }
+  
+  /* Additional content or animation styling */
+  /* You can add styles for additional content or animations here */
+  

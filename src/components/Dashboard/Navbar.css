@@ -1,0 +1,54 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: #f8f9fa; /* Use a light background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center align content */
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333; /* Darken the logo color for contrast */
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    list-style: none; /* Remove bullet points from list */
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    /* border:2px solid black; */
+    margin:25px;
+    /* font-size: large; */
+  }
+  
+  .navbar-search input {
+    padding: 5px 10px;
+    border: 0.5px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .navbar-auth a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  #srch-icon{
+    font-size: 20px;
+  }
+  /* Add this CSS to your Navbar.css or a separate CSS file */
+
+/* Style for the search input and icon */

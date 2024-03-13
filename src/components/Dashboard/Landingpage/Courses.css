@@ -1,0 +1,87 @@
+/* Style for the Courses section */
+#courses {
+    background-color:#041240; /* Background color for the section */
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #courses .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+  }
+  
+  #courses h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white; /* Title color */
+  }
+  
+  /* Style for course cards */
+  .course-list {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .course {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 300px; /* Fixed width for each box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  
+    /* Center the content vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: transform 0.2s; /* Add a smooth transition effect on hover */
+  }
+  
+  .course:hover {
+    transform: translateY(-5px); /* Add a slight lift on hover */
+  }
+  
+  .course img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px 4px 0 0; /* Rounded corners for the top of the image */
+  }
+  
+  #courses h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333; /* Course title color */
+  }
+  
+  #courses p {
+    font-size: 14px;
+    color: #777; /* Course description color */
+    margin-bottom: 20px;
+  }
+  
+  #courses button {
+    background-color: #007BFF; /* Enroll button background color */
+    color: #fff; /* Enroll button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 0 4px 4px; /* Rounded corners for the button */
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #courses button:hover {
+    background-color: #0056b3; /* Change color on hover */
+  }
+  #courses img{
+    width:100px;
+    height:100px;
+  }
+  

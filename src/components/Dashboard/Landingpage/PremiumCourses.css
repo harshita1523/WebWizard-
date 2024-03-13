@@ -1,0 +1,129 @@
+/* PremiumCourses.css */
+.premium-courses {
+    background-color: #041240;
+    padding: 50px 0;
+    color: #fff;
+    position: relative; /* Add position relative to the premium-courses container */
+  }
+  
+.premium-courses .section-heading {
+    text-align: center;
+    font-size: 28px;
+    /* margin-bottom: px; */
+    color: #fff;
+  }
+  
+  .premium-courses .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .premium-courses-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+    /* margin-top:40px; */
+    position: relative;
+  }
+  
+  .premium-course {
+    background-color: #003f5a;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+  }
+  
+  .premium-course h3 {
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+  
+  .premium-course p {
+    color: #fff;
+    margin: 0 0 10px;
+  }
+  
+  .price {
+    font-size: 20px;
+    /* color: #ff6b6b; */
+    margin-top: 10px;
+  }
+  /* PremiumCourses.css */
+.premium-course {
+    /* background-color: #003f5a; */
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    width: 300px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+  }
+  
+  .premium-course:hover {
+    transform: scale(1.05); /* Enlarge the box on hover */
+    box-shadow: 0 0 20px rgb(255, 255, 255); /* Add a subtle box shadow on hover */
+  }
+  
+  
+  /* Updated position of the timer box within the premium-courses-content */
+  .sale-timer {
+    /* background-color: #ff6b6b; */
+     border-radius: 10px;
+    padding: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    width: 300px;
+    text-align: center;
+    position: relative;
+    /* top: -1%; */
+    /* top:100%; */
+    left: 70%;
+    background: transparent;
+    box-shadow: 1px 1px 1px 1px white;
+  }
+  
+   .sale-timer p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+  } 
+  
+  .timer {
+    display: flex;
+    justify-content: center;
+    
+  } 
+  
+   .timer div {
+     background-color: #041240; 
+     /* background: transparent; */
+    box-shadow: 1px 1px 1px 1px white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+    margin:1.5px;
+    width:60px;
+  }
+  
+  .timer span {
+     color: white; 
+    background: transparent;
+    font-size: 24px;
+  }
+  
+  .timer p {
+    color: #fff;
+    font-size: 14px; 
+   } 
+.section-heading{
+    margin-top:-20px;
+}
+.section-heading-h3{
+    margin-top:-15px;
+}
